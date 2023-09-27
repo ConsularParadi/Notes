@@ -1,0 +1,1 @@
+Infinitely many possible outcomes (predict a number)
