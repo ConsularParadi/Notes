@@ -1,0 +1,6 @@
+/* References Callout */
+
+.callout[data-callout="references"] {
+	--callout-color: 211, 211, 211;
+	--callout-icon: lucide-brain-circuit;
+}

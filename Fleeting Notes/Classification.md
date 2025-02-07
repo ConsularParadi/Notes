@@ -1,0 +1,7 @@
+[[Logistic Regression]]
+[[K Nearest Neighbours]]
+[[Support Vector Machines]]
+[[Naive Bayes Classifier]]
+[[LDA |Linear Discriminant Analysis]]
+[[Decision Trees]]
+[[Ensemble Methods]]

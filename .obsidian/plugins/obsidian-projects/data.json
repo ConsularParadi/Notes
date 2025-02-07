@@ -1,0 +1,205 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "to do",
+            "in progress",
+            "on hold",
+            "done"
+          ],
+          "richText": false
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Projects/Clandestine Runway Detection",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b6174870-d923-4a43-96c2-81cbf4dc83a4",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [],
+            "columns": {
+              "to do": {
+                "weight": 0,
+                "records": []
+              },
+              "in progress": {
+                "weight": 1,
+                "records": [
+                  "Projects/Clandestine Runway Detection/Understanding the Data.md"
+                ]
+              },
+              "on hold": {
+                "weight": 2
+              },
+              "done": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "177ef4ec-b34d-4de3-8c2c-9063aa501f09",
+          "name": "Kanban",
+          "type": "board"
+        }
+      ],
+      "id": "ef5b8cc7-5281-4eb1-a762-a95cbc322f29",
+      "name": "Clandestine Runway Detection"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "unread",
+            "reading",
+            "read"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        ""
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#media",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "09fcd47c-22dc-4ece-992b-ed5b58382a66",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fitStyle": "contain",
+            "coverField": "cover",
+            "includeFields": [
+              "author",
+              "category",
+              "status"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "contains",
+                "enabled": true,
+                "value": "book"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ff8080",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "unread"
+                }
+              },
+              {
+                "color": "#fff480",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "reading"
+                }
+              },
+              {
+                "color": "#80ff8e",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "read"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3c0a6e0c-7a43-4aec-90f3-b404b8e61c31",
+          "name": "Library",
+          "type": "gallery"
+        }
+      ],
+      "id": "896c1da1-1305-4229-904f-fe77caa316ed",
+      "name": "Media Management"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "ef5b8cc7-5281-4eb1-a762-a95cbc322f29",
+        "view": "177ef4ec-b34d-4de3-8c2c-9063aa501f09"
+      },
+      {
+        "project": "896c1da1-1305-4229-904f-fe77caa316ed",
+        "view": "3c0a6e0c-7a43-4aec-90f3-b404b8e61c31"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}

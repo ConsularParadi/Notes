@@ -1,0 +1,24 @@
+{
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Attachments/Images",
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "promptDelete": false,
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "vimMode": true,
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Fleeting Notes",
+  "userIgnoreFilters": [
+    "Attachments/"
+  ]
+}

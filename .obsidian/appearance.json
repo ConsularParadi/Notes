@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": true,
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "callout-references"
+  ],
+  "theme": "obsidian",
+  "showRibbon": true
+}

@@ -1,0 +1,6 @@
+- [ ] Create data ingestion and transformation pipeline
+- [ ] Train model and check for improvements (include complete tracking and versioning)
+- [ ] Create deployment and monitoring pipeline
+- [ ] Tools to be used - MLFlow, DVC, Apache Prefect, Deployment using docker on AWS sagemaker
+- [ ] Monitoring using Promehtus and Grafana
+- [ ] Logging and Error Tracking using ELK stack with alerts

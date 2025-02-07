@@ -1,0 +1,6 @@
+- [ ] Create frontend basic portfolio website using Svelte and ShadCN
+- [ ] Automate building, testing and deployment using Jenkins
+- [ ] IAC using terraform
+- [ ] Configuration using Ansible
+- [ ] Monitoring using Grafana and Prometheus
+- [ ] See if a backend is required for anything (Go)

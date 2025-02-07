@@ -1,0 +1,159 @@
+{
+	"nodes":[
+		{
+			"id":"ccbcd67299f0d3db",
+			"type":"text",
+			"text":"#### Work\n```tasks\n(happens today) OR ((happens before today) AND (not done)) \nsort by priority\nhide tags\ntag does not include #tasks/personal  \nshort mode\n```\n\n#### Personal\n```tasks\n(happens today) OR ((happens before today) AND (not done)) \nsort by priority\ntag include #tasks/personal\nhide tags\nshort mode\n```\n\n",
+			"styleAttributes":{},
+			"x":-1500,
+			"y":-722,
+			"width":840,
+			"height":1082,
+			"color":"6"
+		},
+		{
+			"id":"1461ad3f20f08b94",
+			"type":"text",
+			"text":"```tasks\nnot done\ntag include #tasks/backburner \nhide tags\nsort by created\nshort mode\n```\n\n",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-132,
+			"width":420,
+			"height":492,
+			"color":"2"
+		},
+		{
+			"id":"f7d9f913d22578dd",
+			"type":"text",
+			"text":"```tasks\nnot done\ntag include #tasks/waiting\nhide tags\nsort by created\nshort mode\n```\n\n",
+			"styleAttributes":{},
+			"x":326,
+			"y":-132,
+			"width":454,
+			"height":492,
+			"color":"3"
+		},
+		{
+			"id":"956eab31b141a1c7",
+			"type":"text",
+			"text":"### Today",
+			"styleAttributes":{},
+			"x":-1500,
+			"y":-820,
+			"width":840,
+			"height":75,
+			"color":"6"
+		},
+		{
+			"id":"94d675a9bf8ab886",
+			"type":"text",
+			"text":"##### This Month",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-820,
+			"width":420,
+			"height":75,
+			"color":"5"
+		},
+		{
+			"id":"97eda5b504ad49ce",
+			"type":"text",
+			"text":"```tasks\nnot done\n(happens after next 7 days) AND (happens before next 4 weeks)\nsort by due\nhide tags\nshort mode\n```\n",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-722,
+			"width":420,
+			"height":460,
+			"color":"5"
+		},
+		{
+			"id":"5832d49946c6e59f",
+			"type":"text",
+			"text":"##### Unscheduled",
+			"styleAttributes":{},
+			"x":326,
+			"y":-820,
+			"width":454,
+			"height":75,
+			"color":"#8c8c8c"
+		},
+		{
+			"id":"2980c2a8bf865f33",
+			"type":"text",
+			"text":"##### Waiting",
+			"styleAttributes":{},
+			"x":326,
+			"y":-230,
+			"width":454,
+			"height":75,
+			"color":"3"
+		},
+		{
+			"id":"5ba362b19290d455",
+			"type":"text",
+			"text":"##### Backburner",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-230,
+			"width":420,
+			"height":75,
+			"color":"2"
+		},
+		{
+			"id":"061eef969d787ab1",
+			"type":"text",
+			"text":"##### This Week",
+			"styleAttributes":{},
+			"x":-640,
+			"y":-820,
+			"width":494,
+			"height":75,
+			"color":"4"
+		},
+		{
+			"id":"cef409d5f6e25d1e",
+			"type":"text",
+			"text":"```tasks\nnot done\nis not recurring\nhappens in or before next 7 days\nsort by due\nhide tags\npriority below high\nshort mode\n```\n\n#### Recurring\n```tasks\nnot done\nis recurring\nhappens in or before next 7 days\nsort by due\nhide tags\npriority below high\nshort mode\n```\n",
+			"styleAttributes":{},
+			"x":-640,
+			"y":-722,
+			"width":494,
+			"height":460,
+			"color":"4"
+		},
+		{
+			"id":"121c773e7e995586",
+			"type":"text",
+			"text":"```tasks\nnot done\npriority above medium\nhide tags\nsort by created\nshort mode\n```\n\n",
+			"styleAttributes":{},
+			"x":-640,
+			"y":-132,
+			"width":494,
+			"height":492,
+			"color":"1"
+		},
+		{
+			"id":"e1e023bd3cd4cab1",
+			"type":"text",
+			"text":"##### Urgent",
+			"styleAttributes":{},
+			"x":-640,
+			"y":-230,
+			"width":494,
+			"height":75,
+			"color":"1"
+		},
+		{
+			"id":"72b4086c3f039db4",
+			"type":"text",
+			"text":"```tasks\nnot done\nno scheduled date\nno start date\ntag does not include #tasks/backburner\ntag does not include #tasks/waiting \nhide tags\nsort by created\nshort mode\n```\n\n",
+			"styleAttributes":{},
+			"x":326,
+			"y":-722,
+			"width":454,
+			"height":460
+		}
+	],
+	"edges":[],
+	"metadata":{}
+}
